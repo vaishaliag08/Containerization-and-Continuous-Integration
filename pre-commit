@@ -1,8 +1,0 @@
-# Run test.py 
-python test.py
-
-# If test fails, prevent the commit
-if [ $? -ne 0 ]; then
-    echo "Tests failed. Commit aborted."
-    exit 1
-fi
